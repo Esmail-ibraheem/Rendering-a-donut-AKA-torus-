@@ -43,7 +43,7 @@ void Render_Frame(float Alpha , float Beta){
 
             if(ScreenHeight > yp && yp > 0 && ScreenWidth > xp && xp > 0  && ooz > zBuffer[idx]){
                 zBuffer[idx] = ooz ;
-                buffer[idx] = "101010101010"[luminace_index > 0 ? luminace_index : 0] ; 
+                buffer[idx] = ".,-~:;=!*#$@"[luminace_index > 0 ? luminace_index : 0] ; 
             }
         }
     }
